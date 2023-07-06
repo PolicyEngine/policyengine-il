@@ -3,3 +3,8 @@
     - Initial Israel template.
   date: 2023-02-09 00:00:00
   version: 0.0.1
+- bump: minor
+  changes:
+    added:
+    - Low-income municipal tax reduction.
+  date: 2023-07-06 16:35:47
