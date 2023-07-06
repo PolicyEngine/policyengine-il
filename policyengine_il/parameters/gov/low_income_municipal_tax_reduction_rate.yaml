@@ -1,0 +1,51 @@
+description: Maximum rate of reduction in municipal tax for low income households.
+
+# For every household size, we've got a scale parameter defined.
+# 1-> (0.2 if income in range [x, y], 0.4 if ...)
+
+1:
+  brackets:
+    - amount: 
+        2023-01-01: 0.8
+      threshold:
+        2023-01-01: 0
+    - amount: 
+        2023-01-01: 0.6
+      threshold:
+        2023-01-01: 2_958
+    - amount: 
+        2023-01-01: 0.4
+      threshold:
+        2023-01-01: 3_402
+    - amount: 
+        2023-01-01: 0.2
+      threshold:
+        2023-01-01: 3_846
+    - amount: 
+        2023-01-01: 0.6
+      threshold:
+        2023-01-01: 2_958
+    
+    
+  metadata:
+    type: single_amount
+    amount_unit: /1
+    threshold_unit: currency-ILS
+2:
+  brackets:
+    - amount: 
+        2023-01-01: 0.0
+      threshold:
+        2023-01-01: 0.0
+    - amount: 
+        2023-01-01: 1_000
+      threshold:
+        2023-01-01: 0.0
+  metadata:
+    type: single_amount
+    amount_unit: /1
+    threshold_unit: currency-ILS
+
+metadata:
+  unit: currency-ILS
+  reference: https://www.kolzchut.org.il/he/%D7%94%D7%A0%D7%97%D7%94_%D7%91%D7%90%D7%A8%D7%A0%D7%95%D7%A0%D7%94_%D7%9C%D7%91%D7%A2%D7%9C%D7%99_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%A0%D7%9E%D7%95%D7%9B%D7%94
