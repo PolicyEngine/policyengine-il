@@ -8,7 +8,7 @@ description: Maximum rate of reduction in municipal tax for low income household
     - amount: 
         2023-01-01: 0.8
       threshold:
-        2023-01-01: 0
+        2023-01-01: -.inf
     - amount: 
         2023-01-01: 0.6
       threshold:
@@ -22,10 +22,103 @@ description: Maximum rate of reduction in municipal tax for low income household
       threshold:
         2023-01-01: 3_846
     - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 5_300
+
+# Leo
+2:
+  brackets:
+    - amount: 
+        2023-01-01: 0.8
+      threshold:
+        2023-01-01: -.inf
+    - amount: 
+        2023-01-01: 0.6
+      threshold:
+        2023-01-01: 4_438
+    - amount: 
+        2023-01-01: 0.4
+      threshold:
+        2023-01-01: 5_103
+    - amount: 
+        2023-01-01: 0.2
+      threshold:
+        2023-01-01: 5_769
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 7_950
+
+# Pavel
+3:
+  brackets:
+    - amount: 
+        2023-01-01: 0.8
+      threshold:
+        2023-01-01: -.inf
+    - amount: 
+        2023-01-01: 0.6
+      threshold:
+        2023-01-01: 4_438
+    - amount: 
+        2023-01-01: 0.4
+      threshold:
+        2023-01-01: 3_402
+    - amount: 
+        2023-01-01: 0.2
+      threshold:
+        2023-01-01: 3_846
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 5_300
+
+1:
+  brackets:
+    - amount: 
+        2023-01-01: 0.8
+      threshold:
+        2023-01-01: -.inf
+    - amount: 
         2023-01-01: 0.6
       threshold:
         2023-01-01: 2_958
-    
+    - amount: 
+        2023-01-01: 0.4
+      threshold:
+        2023-01-01: 3_402
+    - amount: 
+        2023-01-01: 0.2
+      threshold:
+        2023-01-01: 3_846
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 5_300
+
+1:
+  brackets:
+    - amount: 
+        2023-01-01: 0.8
+      threshold:
+        2023-01-01: -.inf
+    - amount: 
+        2023-01-01: 0.6
+      threshold:
+        2023-01-01: 2_958
+    - amount: 
+        2023-01-01: 0.4
+      threshold:
+        2023-01-01: 3_402
+    - amount: 
+        2023-01-01: 0.2
+      threshold:
+        2023-01-01: 3_846
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 5_300
     
   metadata:
     type: single_amount
@@ -34,13 +127,25 @@ description: Maximum rate of reduction in municipal tax for low income household
 2:
   brackets:
     - amount: 
-        2023-01-01: 0.0
+        2023-01-01: 0.8
       threshold:
-        2023-01-01: 0.0
+        2023-01-01: -.inf
     - amount: 
-        2023-01-01: 1_000
+        2023-01-01: 0.6
       threshold:
-        2023-01-01: 0.0
+        2023-01-01: 4_438
+    - amount: 
+        2023-01-01: 0.4
+      threshold:
+        2023-01-01: 5_103
+    - amount: 
+        2023-01-01: 0.2
+      threshold:
+        2023-01-01: 5_769
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 7_950
   metadata:
     type: single_amount
     amount_unit: /1
