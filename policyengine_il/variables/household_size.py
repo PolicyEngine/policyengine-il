@@ -8,3 +8,6 @@ class household_size(Variable):
     definition_period = YEAR
     value_type = int
     unit = "person"
+
+    def formula(household, period, parameters):
+        return household.nb_persons()

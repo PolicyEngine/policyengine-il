@@ -2,7 +2,7 @@
   period: 2023
   absolute_error_margin: 0.0001
   input:
-    low_income_municipal_tax_reduction_income: 4_000
+    low_income_municipal_tax_reduction_income: 4_000 * 12
     household_size: 1
   output:
     max_low_income_municipal_tax_reduction_rate: 0.2
@@ -22,7 +22,7 @@
 #   period: 2023
 #   absolute_error_margin: 0.0001
 #   input:
-#     low_income_municipal_tax_reduction_income: 20_000 # Above 1,994 per person, so eligible for 30%
+#     low_income_municipal_tax_reduction_income: 20_000 * 12 # Above 1,994 per person, so eligible for 30%
 #     household_size: 10
 #   output:
 #     max_low_income_municipal_tax_reduction_rate: 0.3
@@ -31,7 +31,7 @@
   period: 2023
   absolute_error_margin: 0.0001
   input:
-    low_income_municipal_tax_reduction_income: 13_341 
+    low_income_municipal_tax_reduction_income: 13_341 * 12
     household_size: 5
   output:
     max_low_income_municipal_tax_reduction_rate: 0
@@ -41,7 +41,7 @@
 #   period: 2023
 #   absolute_error_margin: 0.0001
 #   input:
-#     low_income_municipal_tax_reduction_income: 23_000 # 23_010 = 1_534 * 15, we're under that so eligible for 90% reduction
+#     low_income_municipal_tax_reduction_income: 23_000 * 12 # 23_010 = 1_534 * 15, we're under that so eligible for 90% reduction
 #     household_size: 15
 #   output:
 #     max_low_income_municipal_tax_reduction_rate: 0.9
@@ -50,7 +50,7 @@
   period: 2023
   absolute_error_margin: 0.0001
   input:
-    low_income_municipal_tax_reduction_income: 16_188
+    low_income_municipal_tax_reduction_income: 16_188 * 12
     household_size: 6
   output:
     max_low_income_municipal_tax_reduction_rate: 0.2

@@ -7,3 +7,6 @@ class household_tax(Variable):
     definition_period = YEAR
     value_type = float
     unit = "currency-ILS"
+    adds = [
+        "municipal_tax",
+    ]

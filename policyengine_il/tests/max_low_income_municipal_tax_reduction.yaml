@@ -1,0 +1,8 @@
+- name: Amount is rate times municipal tax.
+  period: 2023
+  absolute_error_margin: 0.0001
+  input:
+    max_low_income_municipal_tax_reduction_rate: 0.2
+    municipal_tax: 1_000
+  output:
+    max_low_income_municipal_tax_reduction: 200
