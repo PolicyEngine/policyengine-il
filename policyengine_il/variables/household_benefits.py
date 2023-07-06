@@ -7,3 +7,7 @@ class household_benefits(Variable):
     definition_period = YEAR
     value_type = float
     unit = "currency-ILS"
+
+    adds = [
+        "max_low_income_municipal_tax_reduction",
+    ]
