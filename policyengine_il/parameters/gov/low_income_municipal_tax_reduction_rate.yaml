@@ -25,8 +25,11 @@ description: Maximum rate of reduction in municipal tax for low income household
         2023-01-01: 0
       threshold:
         2023-01-01: 5_300
+  metadata:
+    type: single_amount
+    amount_unit: /1
+    threshold_unit: currency-ILS
 
-# Leo
 2:
   brackets:
     - amount: 
@@ -49,8 +52,11 @@ description: Maximum rate of reduction in municipal tax for low income household
         2023-01-01: 0
       threshold:
         2023-01-01: 7_950
+  metadata:
+    type: single_amount
+    amount_unit: /1
+    threshold_unit: currency-ILS
 
-# Pavel
 3:
   brackets:
     - amount: 
@@ -60,71 +66,25 @@ description: Maximum rate of reduction in municipal tax for low income household
     - amount: 
         2023-01-01: 0.6
       threshold:
-        2023-01-01: 4_438
+        2023-01-01: 5_148
     - amount: 
         2023-01-01: 0.4
       threshold:
-        2023-01-01: 3_402
+        2023-01-01: 5_920
     - amount: 
         2023-01-01: 0.2
       threshold:
-        2023-01-01: 3_846
+        2023-01-01: 6_692
     - amount: 
         2023-01-01: 0
       threshold:
-        2023-01-01: 5_300
-
-1:
-  brackets:
-    - amount: 
-        2023-01-01: 0.8
-      threshold:
-        2023-01-01: -.inf
-    - amount: 
-        2023-01-01: 0.6
-      threshold:
-        2023-01-01: 2_958
-    - amount: 
-        2023-01-01: 0.4
-      threshold:
-        2023-01-01: 3_402
-    - amount: 
-        2023-01-01: 0.2
-      threshold:
-        2023-01-01: 3_846
-    - amount: 
-        2023-01-01: 0
-      threshold:
-        2023-01-01: 5_300
-
-1:
-  brackets:
-    - amount: 
-        2023-01-01: 0.8
-      threshold:
-        2023-01-01: -.inf
-    - amount: 
-        2023-01-01: 0.6
-      threshold:
-        2023-01-01: 2_958
-    - amount: 
-        2023-01-01: 0.4
-      threshold:
-        2023-01-01: 3_402
-    - amount: 
-        2023-01-01: 0.2
-      threshold:
-        2023-01-01: 3_846
-    - amount: 
-        2023-01-01: 0
-      threshold:
-        2023-01-01: 5_300
-    
+        2023-01-01: 9_222
   metadata:
     type: single_amount
     amount_unit: /1
     threshold_unit: currency-ILS
-2:
+
+4:
   brackets:
     - amount: 
         2023-01-01: 0.8
@@ -133,19 +93,154 @@ description: Maximum rate of reduction in municipal tax for low income household
     - amount: 
         2023-01-01: 0.6
       threshold:
-        2023-01-01: 4_438
+        2023-01-01: 5_856
     - amount: 
         2023-01-01: 0.4
       threshold:
-        2023-01-01: 5_103
+        2023-01-01: 6_735
     - amount: 
         2023-01-01: 0.2
       threshold:
-        2023-01-01: 5_769
+        2023-01-01: 7_613
     - amount: 
         2023-01-01: 0
       threshold:
-        2023-01-01: 7_950
+        2023-01-01: 10_492
+  metadata:
+    type: single_amount
+    amount_unit: /1
+    threshold_unit: currency-ILS
+
+5:
+  brackets:
+    - amount: 
+        2023-01-01: 0.8
+      threshold:
+        2023-01-01: -.inf
+    - amount: 
+        2023-01-01: 0.6
+      threshold:
+        2023-01-01: 7_446
+    - amount: 
+        2023-01-01: 0.4
+      threshold:
+        2023-01-01: 8_563
+    - amount: 
+        2023-01-01: 0.2
+      threshold:
+        2023-01-01: 9_680
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 13_340
+  metadata:
+    type: single_amount
+    amount_unit: /1
+    threshold_unit: currency-ILS
+
+6:
+  brackets:
+    - amount: 
+        2023-01-01: 0.8
+      threshold:
+        2023-01-01: -.inf
+    - amount: 
+        2023-01-01: 0.6
+      threshold:
+        2023-01-01: 9_036
+    - amount: 
+        2023-01-01: 0.4
+      threshold:
+        2023-01-01: 10_391
+    - amount: 
+        2023-01-01: 0.2
+      threshold:
+        2023-01-01: 11_747
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 16_188
+  metadata:
+    type: single_amount
+    amount_unit: /1
+    threshold_unit: currency-ILS
+
+7:
+  brackets:
+    - amount: 
+        2023-01-01: 0.9
+      threshold:
+        2023-01-01: -.inf
+    - amount: 
+        2023-01-01: 0.7
+      threshold:
+        2023-01-01: 10_626
+    - amount: 
+        2023-01-01: 0.5
+      threshold:
+        2023-01-01: 12_220
+    - amount: 
+        2023-01-01: 0.3
+      threshold:
+        2023-01-01: 13_814
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 19_036
+  metadata:
+    type: single_amount
+    amount_unit: /1
+    threshold_unit: currency-ILS
+
+8:
+  brackets:
+    - amount: 
+        2023-01-01: 0.9
+      threshold:
+        2023-01-01: -.inf
+    - amount: 
+        2023-01-01: 0.7
+      threshold:
+        2023-01-01: 12_216
+    - amount: 
+        2023-01-01: 0.5
+      threshold:
+        2023-01-01: 14_048
+    - amount: 
+        2023-01-01: 0.3
+      threshold:
+        2023-01-01: 15_880
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 21_885
+  metadata:
+    type: single_amount
+    amount_unit: /1
+    threshold_unit: currency-ILS
+
+9:
+  brackets:
+    - amount: 
+        2023-01-01: 0.9
+      threshold:
+        2023-01-01: -.inf
+    - amount: 
+        2023-01-01: 0.7
+      threshold:
+        2023-01-01: 13_806
+    - amount: 
+        2023-01-01: 0.5
+      threshold:
+        2023-01-01: 15_876
+    - amount: 
+        2023-01-01: 0.3
+      threshold:
+        2023-01-01: 17_947
+    - amount: 
+        2023-01-01: 0
+      threshold:
+        2023-01-01: 24_733
   metadata:
     type: single_amount
     amount_unit: /1

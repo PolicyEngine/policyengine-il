@@ -14,13 +14,16 @@ class max_low_income_municipal_tax_reduction_rate(Variable):
 
     def formula(household, period, parameters):
         params = parameters(period).gov.low_income_municipal_tax_reduction_rate
-        income = household("low_income_municipal_tax_reduction_income", period)
+        annual_income = household(
+            "low_income_municipal_tax_reduction_income", period
+        )
+        monthly_income = annual_income / MONTHS_IN_YEAR
         household_size = household("household_size", period)
-        rates = np.zeros_like(income)
-        for possible_household_size in range(1, 3):
+        rates = np.zeros_like(monthly_income)
+        for possible_household_size in range(1, 10):
             applicable_rate = getattr(
                 params, str(possible_household_size)
-            ).calc(income)
+            ).calc(monthly_income, right=True)
             rates = where(
                 household_size == possible_household_size,
                 applicable_rate,
