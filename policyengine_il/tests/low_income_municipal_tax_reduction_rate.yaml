@@ -1,0 +1,48 @@
+- name: Municipal tax reduction for a one-person household with 4,000 is up to 40%.
+  period: 2023
+  input:
+    low_income_municipal_tax_reduction_income: 4_000
+    household_size: 1
+  output:
+    max_low_income_municipal_tax_reduction_rate: 0.4
+
+
+- name: Municipal tax reduction for a 9-person household with no income is up to 90%.
+  period: 2023
+  input:
+    low_income_municipal_tax_reduction_income: 0
+    household_size: 9
+  output:
+    max_low_income_municipal_tax_reduction_rate: 0.9
+
+- name: Municipal tax reduction for a 10-person with 2,000 per person is eligible for 30%.
+  period: 2023
+  input:
+    low_income_municipal_tax_reduction_income: 20_000 # Above 1,994 per person, so eligible for 30%
+    household_size: 10
+  output:
+    max_low_income_municipal_tax_reduction_rate: 0.3
+
+- name: Income over reduction rate threshold for a 5-person household
+  period: 2023
+  input:
+    low_income_municipal_tax_reduction_income: 13_341 
+    household_size: 5
+  output:
+    max_low_income_municipal_tax_reduction_rate: 0
+
+- name: Income under lowest reduction rate threshold for a 15-person household
+  period: 2023
+  input:
+    low_income_municipal_tax_reduction_income: 23_000 # 23_010 = 1_534 * 15, we're under that so eligible for 90% reduction
+    household_size: 15
+  output:
+    max_low_income_municipal_tax_reduction_rate: 0.9
+    
+- name: Income at border of 6-person eligibility gets up to 20%.
+  period: 2023
+  input:
+    low_income_municipal_tax_reduction_income: 16_188
+    household_size: 6
+  output:
+    max_low_income_municipal_tax_reduction_rate: 0.2
