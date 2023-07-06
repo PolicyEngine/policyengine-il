@@ -1,6 +1,6 @@
 - name: Name
   period: 2023
   input:
-    employment_income: 1000
+    employment_income: 1000 # Annual
   output:
     household_net_income: 40
