@@ -22,6 +22,20 @@ dependencies = [
     "policyengine-core",
 ]
 
+[project.optional-dependencies]
+dev = [
+    "black",
+    "build",
+    "coverage",
+    "jupyter-book",
+    "linecheck",
+    "plotly",
+    "pytest",
+    "setuptools",
+    "towncrier>=24.8.0",
+    "wheel",
+]
+
 [project.scripts]
 policyengine-core = "policyengine_core.scripts.policyengine_command:main"
 
