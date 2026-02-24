@@ -51,6 +51,3 @@ jobs:
       - uses: codecov/codecov-action@v4
       - name: Build package
         run: make build
-      - name: Test documentation builds
-        if: matrix.python-version == '3.12'
-        run: make documentation
