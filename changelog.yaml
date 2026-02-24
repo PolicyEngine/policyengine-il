@@ -8,3 +8,8 @@
     added:
     - Low-income municipal tax reduction.
   date: 2023-07-06 16:35:47
+- bump: minor
+  changes:
+    added:
+    - Added Python 3.14 support, dropped Python 3.10 and below.
+  date: 2026-02-24 17:31:08
