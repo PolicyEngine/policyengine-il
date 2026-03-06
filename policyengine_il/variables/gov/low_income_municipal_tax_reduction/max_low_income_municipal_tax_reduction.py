@@ -3,9 +3,7 @@ from policyengine_il.model_api import *
 
 class max_low_income_municipal_tax_reduction(Variable):
     label = "Maximum low-income municipal tax reduction"
-    documentation = (
-        "Municipalities can reduce municipal tax by up to this amount"
-    )
+    documentation = "Municipalities can reduce municipal tax by up to this amount"
     entity = Household
     definition_period = YEAR
     value_type = float
