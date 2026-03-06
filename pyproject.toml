@@ -24,14 +24,13 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "black",
     "build",
     "coverage",
     "jupyter-book>=1.0.4",
     "mystmd>=1.3.17",
-    "linecheck",
     "plotly",
     "pytest",
+    "ruff>=0.9.0",
     "setuptools",
     "towncrier>=24.8.0",
     "wheel",
