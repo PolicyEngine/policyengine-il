@@ -1,3 +1,10 @@
+## [0.1.4] - 2026-04-17
+
+### Changed
+
+- Mint GitHub App token at runtime in push workflow instead of using the expired org PAT.
+
+
 ## [0.1.3] - 2026-03-07
 
 ### Changed
